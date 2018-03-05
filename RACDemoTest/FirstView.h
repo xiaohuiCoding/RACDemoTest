@@ -10,4 +10,6 @@
 
 @interface FirstView : UIView
 
+@property (nonatomic, strong) UIButton *btn;
+
 @end

@@ -10,8 +10,6 @@
 
 @interface FirstView ()
 
-@property (nonatomic, strong) UIButton *btn;
-
 @end
 
 @implementation FirstView
@@ -32,8 +30,8 @@
     [self addSubview:_btn];
 }
 
-- (void)btnClicked {
-    NSLog(@"按钮被点击了！");
-}
+//- (void)btnClicked {
+//    NSLog(@"按钮被点击了！");
+//}
 
 @end
